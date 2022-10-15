@@ -1,0 +1,18 @@
+doctype html
+head
+  style
+      include ../static/communityStyle.css
+  title beautiful landing page with search bar
+  link(rel='stylesheet' type='text/css' href='community.css')
+.main
+  .navbar
+    .logo BLUELEARN
+  .info
+    .head
+      h3
+        | CONNECT WITH YOUR 
+        span COMMUNITY
+        |  HERE
+    form#f1.search(name='f1')
+      input(type='text' name='t1' placeholder='SEARCH HERE....' required='')
+      input(type='submit' name='b1' value='SEARCH' form='f1')
